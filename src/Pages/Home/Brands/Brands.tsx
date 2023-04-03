@@ -1,6 +1,9 @@
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+// import Slider from "react-slick";
 import Slider from "react-slick";
+
+import "slick-carousel/slick/slick-theme.css";
+import "slick-carousel/slick/slick.css";
+
 import Image1 from "../../../Assets/Image/Barnd_Imge/download (1).png";
 import Image2 from "../../../Assets/Image/Barnd_Imge/download (2).png";
 import Image3 from "../../../Assets/Image/Barnd_Imge/download (3).png";
