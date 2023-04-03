@@ -21,10 +21,35 @@ const Brands = () => {
     speed: 4000,
     autoplaySpeed: 5000,
     cssEase: "linear",
+    responsive: [
+      {
+        breakpoint: 600,
+        settings: {
+          infinite: true,
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          autoplay: true,
+          speed: 4000,
+          autoplaySpeed: 5000,
+          cssEase: "linear",
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          infinite: true,
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          autoplay: true,
+          speed: 4000,
+          autoplaySpeed: 5000,
+          cssEase: "linear",
+        },
+      },
+    ],
   };
   return (
-    <div>
-      <h1>This is slider</h1>
+    <div className="mt-16">
       <Slider {...settings}>
         <div>
           <img src={Image1} alt="" />
