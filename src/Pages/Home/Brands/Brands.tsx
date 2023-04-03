@@ -15,15 +15,41 @@ import Image8 from "../../../Assets/Image/Barnd_Imge/download (8).png";
 const Brands = () => {
   const settings = {
     infinite: true,
-    slidesToShow: 3,
+    slidesToShow: 4,
     slidesToScroll: 1,
     autoplay: true,
-    speed: 2000,
-    autoplaySpeed: 2000,
+    speed: 4000,
+    autoplaySpeed: 5000,
     cssEase: "linear",
+    responsive: [
+      {
+        breakpoint: 600,
+        settings: {
+          infinite: true,
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          autoplay: true,
+          speed: 4000,
+          autoplaySpeed: 5000,
+          cssEase: "linear",
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          infinite: true,
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          autoplay: true,
+          speed: 4000,
+          autoplaySpeed: 5000,
+          cssEase: "linear",
+        },
+      },
+    ],
   };
   return (
-    <div>
+    <div className="mt-16">
       <Slider {...settings}>
         <div>
           <img src={Image1} alt="" />
