@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-// import corporate from "../../../Assets/images/network.png";
+import corporate from "../../../Assets/Image/service_icon/save-data.png";
 
 const Services = () => {
   return (
@@ -27,7 +27,7 @@ const Services = () => {
         <div className="grid grid-cols-2 gap-5">
           {/* Corporate Internet */}
           <div className="p-7 text-center bg-white rounded-lg">
-            {/* <img className="w-[50px] mx-auto" src={corporate} alt="" /> */}
+            <img className="w-[50px] mx-auto" src={corporate} alt="" />
             <h2 className="text-xl font-semibold my-6">Corporate Internet</h2>
             <p className="text-sm leading-6 font-semibold mb-6">
               We offer safe internet access services with various service level
@@ -38,7 +38,7 @@ const Services = () => {
             </Link>
           </div>
           <div className="p-7 text-center bg-white rounded-lg">
-            {/* <img className="w-[50px] mx-auto" src={corporate} alt="" /> */}
+            <img className="w-[50px] mx-auto" src={corporate} alt="" />
             <h2 className="text-xl font-semibold my-6">Corporate Internet</h2>
             <p className="text-sm leading-6 font-semibold mb-6">
               We offer safe internet access services with various service level
@@ -49,7 +49,7 @@ const Services = () => {
             </Link>
           </div>
           <div className="p-7 text-center bg-white rounded-lg">
-            {/* <img className="w-[50px] mx-auto" src={corporate} alt="" /> */}
+            <img className="w-[50px] mx-auto" src={corporate} alt="" />
             <h2 className="text-xl font-semibold my-6">Corporate Internet</h2>
             <p className="text-sm leading-6 font-semibold mb-6">
               We offer safe internet access services with various service level
@@ -60,7 +60,7 @@ const Services = () => {
             </Link>
           </div>
           <div className="p-7 text-center bg-white rounded-lg">
-            {/* <img className="w-[50px] mx-auto" src={corporate} alt="" /> */}
+            <img className="w-[50px] mx-auto" src={corporate} alt="" />
             <h2 className="text-xl font-semibold my-6">Corporate Internet</h2>
             <p className="text-sm leading-6 font-semibold mb-6">
               We offer safe internet access services with various service level

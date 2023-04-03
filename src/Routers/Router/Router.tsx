@@ -1,9 +1,9 @@
 import { createBrowserRouter } from "react-router-dom";
 
 import Main from "../../Layouts/Main/Main";
-import About from "../../Pages/Home/About/About";
-import Brands from "../../Pages/Home/Brands/Brands";
+import AboutRoute from "../../Pages/AboutRoute/AboutRoute";
 import Home from "../../Pages/Home/Home/Home";
+import PhoneIP from "../../Pages/PhoneIP/PhoneIP";
 
 export const router = createBrowserRouter([
   {
@@ -15,12 +15,12 @@ export const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: "/about",
-        element: <About />,
+        path: "/about-us",
+        element: <AboutRoute />,
       },
       {
-        path: "/brands",
-        element: <Brands />,
+        path: "/phone-ip",
+        element: <PhoneIP />,
       },
     ],
   },
