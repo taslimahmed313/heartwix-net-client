@@ -12,15 +12,16 @@ import Image8 from "../../../Assets/Image/Barnd_Imge/download (8).png";
 const Brands = () => {
   const settings = {
     infinite: true,
-    slidesToShow: 3,
+    slidesToShow: 4,
     slidesToScroll: 1,
     autoplay: true,
-    speed: 2000,
-    autoplaySpeed: 2000,
+    speed: 4000,
+    autoplaySpeed: 5000,
     cssEase: "linear",
   };
   return (
     <div>
+      <h1>This is slider</h1>
       <Slider {...settings}>
         <div>
           <img src={Image1} alt="" />
